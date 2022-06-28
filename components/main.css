@@ -1,10 +1,7 @@
 .main__title {
-  display: block;
   display: flex;
   justify-content: center;
-  _position: absolute;
-  _left: 50%;
-  _transform: translate(-50%);
+
   font-size: 3rem;
 }
 
