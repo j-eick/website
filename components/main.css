@@ -1,0 +1,22 @@
+.main__title {
+  display: block;
+  display: flex;
+  justify-content: center;
+  _position: absolute;
+  _left: 50%;
+  _transform: translate(-50%);
+  font-size: 3rem;
+}
+
+.main__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10vh;
+}
+
+.main__nav__elem {
+  background-color: red;
+  list-style-type: none;
+  font-size: 2rem;
+}
